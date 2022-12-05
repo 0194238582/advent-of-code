@@ -1,0 +1,16 @@
+/home/user/Desktop/c#-projects/advent-of-code/bin/Debug/net5.0/advent-of-code
+/home/user/Desktop/c#-projects/advent-of-code/bin/Debug/net5.0/advent-of-code.deps.json
+/home/user/Desktop/c#-projects/advent-of-code/bin/Debug/net5.0/advent-of-code.runtimeconfig.json
+/home/user/Desktop/c#-projects/advent-of-code/bin/Debug/net5.0/advent-of-code.runtimeconfig.dev.json
+/home/user/Desktop/c#-projects/advent-of-code/bin/Debug/net5.0/advent-of-code.dll
+/home/user/Desktop/c#-projects/advent-of-code/bin/Debug/net5.0/ref/advent-of-code.dll
+/home/user/Desktop/c#-projects/advent-of-code/bin/Debug/net5.0/advent-of-code.pdb
+/home/user/Desktop/c#-projects/advent-of-code/obj/Debug/net5.0/advent-of-code.csproj.AssemblyReference.cache
+/home/user/Desktop/c#-projects/advent-of-code/obj/Debug/net5.0/advent-of-code.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/Desktop/c#-projects/advent-of-code/obj/Debug/net5.0/advent-of-code.AssemblyInfoInputs.cache
+/home/user/Desktop/c#-projects/advent-of-code/obj/Debug/net5.0/advent-of-code.AssemblyInfo.cs
+/home/user/Desktop/c#-projects/advent-of-code/obj/Debug/net5.0/advent-of-code.csproj.CoreCompileInputs.cache
+/home/user/Desktop/c#-projects/advent-of-code/obj/Debug/net5.0/advent-of-code.dll
+/home/user/Desktop/c#-projects/advent-of-code/obj/Debug/net5.0/ref/advent-of-code.dll
+/home/user/Desktop/c#-projects/advent-of-code/obj/Debug/net5.0/advent-of-code.pdb
+/home/user/Desktop/c#-projects/advent-of-code/obj/Debug/net5.0/advent-of-code.genruntimeconfig.cache
