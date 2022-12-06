@@ -17,7 +17,10 @@
             //new day4().Run();
 
             // Day 5
-            new day5().Run();
+            //new day5().Run();
+
+            // Day 6
+            new day6().Run();
         }
     }
 }
