@@ -20,7 +20,10 @@
             //new day5().Run();
 
             // Day 6
-            new day6().Run();
+            //new day6().Run();
+
+            // Day 7
+            new day7().Run();
         }
     }
 }
