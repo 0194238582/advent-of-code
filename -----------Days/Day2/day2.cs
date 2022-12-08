@@ -6,14 +6,14 @@ namespace advent_of_code
 {
     public class day2
     {
-        public enum PlayerMove
+        private enum PlayerMove
         {
             Rock = 'X',
             Paper = 'Y',
             Scissors = 'Z',
         }
 
-        public enum EnemyMove
+        private enum EnemyMove
         {
             Rock = 'A',
             Paper = 'B',
