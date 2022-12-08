@@ -11,7 +11,7 @@ namespace advent_of_code
         public void Run()
         {
 #region Part 1
-            Console.WriteLine("Day 1 - Part 1:");
+            Console.WriteLine("Day 8 - Part 1:");
             string[] input = File.ReadAllLines("-----------Days/Day8/input.txt");
 
             int cols = input[0].Length; // get length of input
@@ -23,7 +23,7 @@ namespace advent_of_code
 #endregion
 
 #region Part 2
-            Console.WriteLine("Day 1 - Part 2:");
+            Console.WriteLine("Day 8 - Part 2:");
 
             scenicScores.Sort((a, b) => {
                 return b - a;
