@@ -152,35 +152,35 @@ namespace advent_of_code
 
             return cmds;
         }
-    }
 
-    internal class LocalFile
-    {
-        public string path = "";
-        public int size = 0;
-        public LocalFile parent = null;
-
-        public bool isDirectory = false;
-
-        public LocalFile(string path, int size, LocalFile parent, bool isDirectory)
+        private class LocalFile
         {
-            this.path = path;
-            this.size = size;
-            this.parent = parent;
-            this.isDirectory = isDirectory;
+            public string path = "";
+            public int size = 0;
+            public LocalFile parent = null;
+
+            public bool isDirectory = false;
+
+            public LocalFile(string path, int size, LocalFile parent, bool isDirectory)
+            {
+                this.path = path;
+                this.size = size;
+                this.parent = parent;
+                this.isDirectory = isDirectory;
+            }
         }
-    }
 
-    internal class Command
-    {
-        public string cmd = "";
-        public string parameter = "";
-        public List<string> results = new List<string>();
-
-        public Command(string cmd, string parameter)
+        private class Command
         {
-            this.cmd = cmd;
-            this.parameter = parameter;
+            public string cmd = "";
+            public string parameter = "";
+            public List<string> results = new List<string>();
+
+            public Command(string cmd, string parameter)
+            {
+                this.cmd = cmd;
+                this.parameter = parameter;
+            }
         }
     }
 }

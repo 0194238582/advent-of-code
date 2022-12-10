@@ -93,30 +93,30 @@ namespace advent_of_code
             {
                 if (myMove == 'X') // lose on purpose
                 {
-                    switch (opponentMove)
+                    switch ((EnemyMove) opponentMove)
                     {
-                        case (char) EnemyMove.Rock:
+                        case EnemyMove.Rock:
                             myMove = (char) PlayerMove.Scissors;
                             break;
-                        case (char) EnemyMove.Paper:
+                        case EnemyMove.Paper:
                             myMove = (char) PlayerMove.Rock;
                             break;
-                        case (char) EnemyMove.Scissors:
+                        case EnemyMove.Scissors:
                             myMove = (char) PlayerMove.Paper;
                             break;
                     }
                 }
                 else if (myMove == 'Y') // draw on purpose
                 {
-                    switch (opponentMove)
+                    switch ((EnemyMove) opponentMove)
                     {
-                        case (char) EnemyMove.Rock:
+                        case EnemyMove.Rock:
                             myMove = (char) PlayerMove.Rock;
                             break;
-                        case (char) EnemyMove.Paper:
+                        case EnemyMove.Paper:
                             myMove = (char) PlayerMove.Paper;
                             break;
-                        case (char) EnemyMove.Scissors:
+                        case EnemyMove.Scissors:
                             myMove = (char) PlayerMove.Scissors;
                             break;
                     }
@@ -130,15 +130,15 @@ namespace advent_of_code
             }
 #endregion
 
-            switch (myMove) // add default score from moves
+            switch ((PlayerMove) myMove) // add default score from moves
             {
-                case (char) PlayerMove.Rock:
+                case PlayerMove.Rock:
                     currScore += 1;
                     break;
-                case (char) PlayerMove.Paper:
+                case PlayerMove.Paper:
                     currScore += 2;
                     break;
-                case (char) PlayerMove.Scissors:
+                case PlayerMove.Scissors:
                     currScore += 3;
                     break;
             }
